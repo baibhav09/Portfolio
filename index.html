@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1>Baibhav Anand</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello, <span></span></h1>
+                <h1>My Name is <span></span></h1>
+                <h1>Baibhav <span></span></h1>
+                <a href="#projects" type="button" class="cta">Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Recent <span>Projects</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 1</h1>
+                        <h2><b>FinJect</b> (Locating App for Visually Impaired Users) </h2>
+                        <p>Creating an environment where we can aid the visually impaired users. FinJect provides with an option of using Object Tagging and Image Detection. Object tagging is done through BLE tags which are attached to the objects like bottles, wallet, keys etc. and then with simple voice interaction these tags are triggered(makes beeping sound) and are then located  by the users based on sound. The image detection is a simple YOLO model which uses text to speech recognition and informs the user of its surrounding with the help of smartphone camera. </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./Images/Logo.jpg" alt="FinJect_Logo" width="100%" height="100%" >
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 2</h1>
+                        <h2><b>Named-Entity-Recognition</b> (NLP)</h2>
+                        <p>Creating a Deep Neural Network for Named-Entity-Recognition where we will be tagging the words after applying some Rcurrent Neural Networks  like LSTM. Here we will be using Bi-directional LSTM to get the proper meaning of a word based on its surrounding words.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./Images/NLP.png" alt="NER(NLP)">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2><b>E-Voting using Blockchain</b></h2>
+                        <p>E-voting system seems to be very effective since there cannot be any malpractice of such like changing votes or pseudo votes or counting mistakes. Blockchain with ethereum and smart contracts can easily set the necessary rules for voting. Changing a vote is very difficult since the nodes or blocks in blockchain will keep on updating and saving it in their blocks which are further chained to another blocks. Inorder to change the voted the user will have to change around 51% of nodes which is easily trackable and impossible to do so.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./Images/E-Voting.jpg" alt="E-Voting">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 4</h1>
+                        <h2><b>Solar Tracking Device</b></h2>
+                        <p>It was an IoT project where we made use of Arduino to instruct the sensors on what to do. The solar tracking device tracks the sunlight and aligns itself to 90 degree with the rays as in to get maximum energy out of it.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./Images/Solar Tracking.jpg" alt="IoT_Proj">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 5</h1>
+                        <h2><b>Malware Analysis</b> (Cyber-Sec Endpoints)</h2>
+                        <p>Creating a cyber-sec endpoint system. We will be dealing with API call sequence of exe files inorder to classify them as Malware or Benign. Then we will be deploying it on a server for our clients to easily monitor endpoints in their ecosystem</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./Images/Malware.jpg" alt="Malware-Analysis">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./Images/Portfolio.jpg" alt="Profile">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>me</span></h1>
+                <h2></h2>
+                <p>A passionate individual who always thrive to learn and explore new technologies. Currently I am working with Steinn Labs as Data Science Intern. Learning new technologies has always intrigued me. I take pride in acknowledging myself as a self-taught programmer. The topic of Cyber-Security fascinates me the most !!
+                <br>
+                When I am not programming, you will find me playing <b>Basketball</b>, <b>Dancing</b> or <b>Reading</b> I am huge fan of <b>Agatha Christie</b>. Other than that I enjoy myself playing pc <b>Games</b>.
+                </p>
+                <a href="./Baibhav_Anand_VIT.pdf" class="cta">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="section-title">Contact <span>info</span></h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+91 8237764403</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>baibhavanand1516@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Pune, Maharashtra</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1>Baibhav Anand</h1>
+            </div>
+            <p>Copyright © 2020 Baibhav</p>
+        </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+
+
+<!---->
